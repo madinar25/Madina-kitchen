@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madina's Kitchen</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logoText">
+        <a href="index.html">Madina's Kitchen</a>
+      </div>
+      <div class="navButtons">
+        <a href="index.html">Home</a>
+
+        <a href="pasta.html">Pasta</a>
+
+        <a href="cheesecake.html">Cheesecake</a>
+
+        <a href="butter-chicken.html">Butter Chicken</a>
+
+        <a href="tiramisu.html">Tiramisu</a>
+
+        <a href="contact-me.html">Contact me</a>
+      </div>
+    </div>
+    <form
+      method="POST"
+      action="https://script.google.com/macros/s/AKfycbxX-yzshBJ9Hx3BhhYPv3kuOVg-0Xm-BBjmkrzNmFT5bGuvg84inLYP0pJKtrDYGKWE/exec"
+    >
+      <fieldset>
+        <div class="container">
+          <div class="row">
+            <div class="column">
+              <label for="firstName">First name</label>
+              <input type="text" id="firstName" name="first_name" />
+
+              <label for="lastName">Last name</label>
+              <input type="text" id="lastName" name="last_name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email_address" />
+            </div>
+          </div>
+          <p>Do you enjoy cooking or baking?</p>
+          <div>
+            <input type="radio" id="yes" name="answer" value="yes" checked />
+            <label for="html">Yes</label>
+          </div>
+
+          <div>
+            <input type="radio" id="no" name="answer" value="no" checked />
+            <label for="css">No</label>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <label for="comments">Comments</label>
+              <textarea id="comments" name="comments"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <button class="submit" type="submit">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
